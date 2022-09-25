@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/mine.loader.js";
       var config = {
-        dataUrl: buildUrl + "/mine.data.gz",
-        frameworkUrl: buildUrl + "/mine.framework.js.gz",
-        codeUrl: buildUrl + "/mine.wasm.gz",
+        dataUrl: buildUrl + "/mine.data",
+        frameworkUrl: buildUrl + "/mine.framework.js",
+        codeUrl: buildUrl + "/mine.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Murilo Rocha",
         productName: "Uncaplabe",
@@ -120,24 +120,3 @@
     </script>
   </body>
 </html>
-
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-  <system.webServer>
-    <httpCompression directory="%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files">
-      <scheme name="gzip" dll="%Windir%\system32\inetsrv\gzip.dll"/>
-      <dynamicTypes>
-        <add mimeType="text/*" enabled="true"/>
-        <add mimeType="message/*" enabled="true"/>
-        <add mimeType="application/javascript" enabled="true"/>
-        <add mimeType="*/*" enabled="false"/>
-      </dynamicTypes>
-      <staticTypes>
-        <add mimeType="text/*" enabled="true"/>
-        <add mimeType="message/*" enabled="true"/>
-        <add mimeType="application/javascript" enabled="true"/>
-        <add mimeType="*/*" enabled="false"/>
-      </staticTypes>
-    </httpCompression>
-  </system.webServer>
-</configuration>
