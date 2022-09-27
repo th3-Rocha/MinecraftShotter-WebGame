@@ -2,6 +2,9 @@
 https://th3-rocha.github.io/Minecraft-shotter/
 
 w a s d = move steve
+
+
+
 mouse = shot arrows
 
 
