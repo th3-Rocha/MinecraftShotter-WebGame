@@ -1,5 +1,5 @@
-# Minecraft-shotter
-https://th3-rocha.github.io/Minecraft-shotter/
+# MinecraftShotter-WebGame
+https://th3-rocha.github.io/MinecraftShotter-WebGame/
 
 w a s d = move steve
 
