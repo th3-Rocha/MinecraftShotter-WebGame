@@ -1,4 +1,4 @@
-# MinecraftShotter-WebGame
+# MinecraftShotter
 Simple minecraft graphics game
 # Link
 https://th3-rocha.github.io/MinecraftShotter-WebGame
